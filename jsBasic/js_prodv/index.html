@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label {
+            font-size: 30px;
+            display: inline-block;
+        }
+        input {
+            display: block;
+            width: 300px;
+            height: 50px;
+            font-size: 30px;
+        }
+        img {
+            width: 50px;
+            height: 50px;
+            transform: rotateZ(90deg);
+            margin-left: 60px;
+        }
+        img:hover {
+            transition: .5s;
+            transform: rotateZ(270deg);
+        }
+    </style>
+</head>
+<body>
+    <label for="rub">RUB</label>
+    <input id="rub" type="text">
+    <label for="usd">USD</label>
+    <img src="/img/strelka.png" alt="str">
+    <input id="usd" type="text">
+    <!-- <script src="js/script.js"></script> -->
+    <!-- <script src="js/regular.js"></script> -->
+    <script src="js/incapsulators.js"></script>
+</body>
+</html>
